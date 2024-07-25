@@ -69,5 +69,3 @@ app.get('/userverify',(req,res)=> {
 app.get('/logout',(req,res)=> {
   res.cookie('Token', '').send("Logout successfully..")
 })
-
-app.listen(3000)
